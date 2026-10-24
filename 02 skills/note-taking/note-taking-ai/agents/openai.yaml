@@ -1,0 +1,7 @@
+interface:
+  display_name: "AI Note Taking"
+  short_description: "整理 AI 学习资料为可复用的 Obsidian 笔记"
+  default_prompt: "Use $note-taking-ai to整理这份 AI 学习资料并写入合适的 Obsidian 笔记。"
+
+policy:
+  allow_implicit_invocation: true

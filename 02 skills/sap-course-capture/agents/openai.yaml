@@ -1,0 +1,4 @@
+interface:
+  display_name: "SAP 课程采集专用"
+  short_description: "采集 SAP Learning 课程正文、图片、视频与演示，并分段讲解和记笔记"
+  default_prompt: "用 $sap-course-capture 采集当前 Edge 中的 SAP Learning 课程；如页面未打开，请附上课程 URL。"

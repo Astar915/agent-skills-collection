@@ -1,0 +1,11 @@
+# Local credentials and runtime data
+.env
+.env.*
+*.sqlite
+*.sqlite3
+*.db
+__pycache__/
+*.py[cod]
+
+# This image is a personal account reference; provide your own before using the media workflow
+02 skills/media-production/novel-audio-video-pipeline/assets/bilibili-avatar-reference.png

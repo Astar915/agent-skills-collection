@@ -1,0 +1,7 @@
+interface:
+  display_name: "AI Knowledge Guide"
+  short_description: "Evidence-based answers for AI questions"
+  default_prompt: "Use $ai-knowledge-guide to answer this AI question with clear evidence and practical guidance."
+
+policy:
+  allow_implicit_invocation: true
