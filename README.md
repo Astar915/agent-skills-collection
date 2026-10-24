@@ -2,6 +2,10 @@
 
 一组面向 Codex 的可复用 Skills，涵盖 SAP、AI、日本簿记、Obsidian 笔记，以及少量需要配套项目或桌面工具的工作流。Skills 是给 AI agent 使用的说明包，不是独立应用；每个技能的入口文件是 `SKILL.md`，可选的 `agents/`、`references/` 和 `assets/` 文件也应一起保留。
 
+## ABAP 样本
+
+[打开 ABAP 内表与 SQL 五章样本](samples/abap-internal-tables/README.md)。这是从 ABAP 学习笔记中整理的独立分享页，示例使用通用对象名。
+
 ## 快速安装
 
 先在 GitHub 页面点 **Code → Download ZIP** 并解压，然后在解压后的仓库根目录打开终端。下面的脚本会把所有 Skills 安装到当前用户目录；已存在同名目录时会跳过，避免覆盖已有配置。
