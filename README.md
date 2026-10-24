@@ -93,18 +93,12 @@ done < <(find "$source_root" -type f -name 'SKILL.md' -print0)
 | [note-taking-japanese-bookkeeping](02%20skills/note-taking/note-taking-japanese-bookkeeping/SKILL.md) | 整理日本簿记资料、分录和计算 | 需要一个 Obsidian vault；默认以日语组织笔记。 |
 | [note-taking-sap](02%20skills/note-taking/note-taking-sap/SKILL.md) | 把已解决的 SAP 问题整理成笔记 | 需要一个 Obsidian vault；安装脚本会附带共享记笔记规范。 |
 | [sap-course-capture](02%20skills/sap-course-capture/SKILL.md) | 学习 SAP Learning 课程 | 需要课程访问权限及可用的浏览器/截图能力；素材保存路径按自己的设备配置。 |
-| [novel-audio-video-pipeline](02%20skills/media-production/novel-audio-video-pipeline/SKILL.md) | Word 小说转中文配音视频并准备投稿 | 需要 Word、配音/剪辑工具和自己的视频账号；运行前设置输入、背景视频、导出路径、头像，并检查配音、字幕、标签和排期是否适合自己。发布与定时投稿须由当前使用者授权。 |
-| [household-bookkeeping](02%20skills/answering/household-bookkeeping/SKILL.md) | 家庭账本操作和核对 | 面向配套记账项目；本仓库不包含该应用、账本数据库或用户配置。使用者应先检查并改好项目文档和账务规则。 |
-| [household-bookkeeping-software](02%20skills/answering/household-bookkeeping-software-v0-2/SKILL.md) | 家庭记账软件中的自然语言解析 | 仅供包含兼容解析器的记账软件内部使用，不是通用聊天记账 Skill。 |
-
 共享 Obsidian 规范的原始文件位于 [`02 skills/_shared/`](02%20skills/_shared/obsidian-note-taking-reference.md)。安装脚本会把它复制到三个笔记 Skill 旁边，使安装后的 Skill 可以单独读取。更新共享规范时，也要同步更新这三个已安装副本。
 
 ## 使用者需要配置的内容
 
 - 检索类 Skills 可结合自己的笔记库；不同使用者的目录结构不同，使用前应确认 Codex 能访问自己的笔记目录。
-- 小说视频工作流中的 `{NOVEL_INPUT_DIR}`、`{BACKGROUND_VIDEO_FILE}`、`{VIDEO_OUTPUT_DIR}` 和 `{BILIBILI_AVATAR_REFERENCE}` 是占位符。请换成自己有权使用的路径和素材，不要沿用原作者设备上的位置。本仓库不分发原作者的头像参考图；请提供自己的账号参考图。上传、投稿或定时发布前，需要当前使用者明确授权。
 - SAP 课程采集 Skill 是进阶工作流，需要 SAP Learning 访问权限、浏览器/截图能力，以及处理分段交接的工作环境；它会把截图和字幕写到当前使用者选择的本地目录。不要把浏览器登录信息、访问令牌或私人课程文件提交到公开仓库。
-- 家庭记账 Skills 不附带真实账本或账户数据。第一次用于自己的记账项目时，先阅读该项目的 `AGENTS.md`、迁移说明和软件说明，并确认账户、币种、账期及账务规则。
 
 ## 许可证
 
